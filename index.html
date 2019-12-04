@@ -1,1 +1,22 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link rel="stylesheet" href="http://aui.github.io/artDialog/css/ui-dialog.css">
+	<script src="http://aui.github.io/artDialog/lib/jquery-1.10.2.js"></script>
+	<script src="http://aui.github.io/artDialog/dist/dialog-plus.js"></script>
+</head>
+<body>
+	
+	<script>
+		var d = dialog({
+			title: 'hello,world',
+			content: '<div id="box"><img src="1.jpg"></div>'
+		});
+		d.showModal();
+	</script>
+</body>
+</html>
+
